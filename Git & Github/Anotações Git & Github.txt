@@ -1,0 +1,51 @@
+Git
+Sistema de versionamento de código distribuído
+CLI Command Line Interface 
+GUI Graphical User Interface
+Comando
+Dir
+Lista todos os arquivas de uma pasta, e dentro de uma pasta ou diretório selecionadas.
+CD Change Directory 
+Navegar entre as pastas, diretórios.
+
+CD .. 
+Retroceder Navegação
+CLS Clear Screen
+Limpar o terminal
+Tecla TAB
+Função de auto completar
+MkDir Make Directory
+Cria um diretório, pasta.
+Echo
+Printa de volta no terminal uma frase ou texto.
+Del
+Deleta arquivos e o que tem dentro deles. Mas não os repositórios 
+
+	
+
+
+Funcionamento
+Sha1
+Sha Secure Hash Algorithm (algoritmo de hash seguro)
+Conjunto de funções Hash criptográficas projetadas pelas
+NSA ( Agencia de segurança nacional dos EUA)
+A encriptação gera um conjunto de caracteres identificador de 40
+Dígitos.
+
+Objetos Internos do Git
+Blob Guarda metadados dentro dele, tipo e tamnho da string, arquivo, uma  \0  e o conteúdo do arquivo, seja texto, binário ou etc.
+
+ Tree armazena e os Blobs diferentes.
+ blob sha1 texto.txt
+
+Commit o objeto que une tudo.
+
+Primeiros comandos com o Git
+Git Init cria um repositório.
+comando ls com o comando –a mostra arquivos ocultos.
+
+Git config configuração inicial do nome, pode ser global ou só daquele repositório git config user . email lucas@gmail.com
+Git config user . name Lucas
+Git status ( comando que informa o status dos arquivos e repositórios)
+Mv comando para mover repositórios.
+
